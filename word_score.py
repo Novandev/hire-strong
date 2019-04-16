@@ -1,12 +1,14 @@
 def is_vowel(letter):
     """
-    PARAM: letter a 
-    Returns a boolean that dictates if the letter itself is one of the vowels
+    PARAM: Char -letter, a char that will be chcked 
+    RETURN: Bool - a boolean that dictates if the letter itself is one of the vowels
     """
     return letter in ['a', 'e', 'i', 'o', 'u','y']
 
 def score_words(words):
     """
+    PARAM:  List - words, a list of words to be checked
+    RETURN:  Int - word_score, a score of occurences
     This returns a score of w=letters based on an even or an odd number of vowels
     """
     word_score = 0 # Keeping track of score
